@@ -10,6 +10,7 @@ lyrics = "12 drummers, 11 pipers, 10 lords, 9 ladies, 8 maids, 7 swans, 6 geese,
 xmasRegex = re.compile(r"\d+\s\w+")  # character classes
 print(xmasRegex.findall(lyrics))
 
+# create your own character class []
 vowelRegex = re.compile(
     r"[aeiouAEIOU]"
 )  # this is better than r'(a|e|i|o|u)', put caps and smalls both
